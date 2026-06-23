@@ -1,3 +1,8 @@
 [build]
   command = "pnpm --filter mytown-app build"
   publish = "mytown-app/dist"
+
+[[redirects]]
+  from = "/*"
+  status = 200
+  to = "/index.html"
