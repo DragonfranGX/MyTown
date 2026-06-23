@@ -1,4 +1,3 @@
 [build]
-  base = "mytown-app"
-  command = "pnpm run build"
-  publish = "dist"
+  command = "pnpm --filter mytown-app build"
+  publish = "mytown-app/dist"
